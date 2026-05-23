@@ -5,7 +5,7 @@ This document presents the architectural layout and execution data flow of the `
 ---
 
 ## 1. Project Crate Architecture
-Our workspace is laid out as a modular Rust crate. The interactive binary driver ([src/main.rs](file:///home/hasrat/Documents/CryptoPals_Challenges/src/main.rs)) depends on our core library ([src/lib.rs](file:///home/hasrat/Documents/CryptoPals_Challenges/src/lib.rs)), which cleanly exports standalone encoding modules.
+Our workspace is laid out as a modular Rust crate. The interactive binary driver ([src/main.rs](file:///home/hasrat/Documents/CryptoPals_Challenges/01-hex_to_base64/src/main.rs)) depends on our core library ([src/lib.rs](file:///home/hasrat/Documents/CryptoPals_Challenges/01-hex_to_base64/src/lib.rs)), which cleanly exports standalone encoding modules.
 
 ```mermaid
 graph TD

@@ -11,7 +11,7 @@ To maintain a clean and extensible layout as we tackle more exercises, the repos
 CryptoPals_Challenges/
 ├── README.md
 ├── .gitignore
-└── hex_to_base64/              # Set 1, Challenge 1: Hex to Base64
+└── 01-hex_to_base64/              # Set 1, Challenge 1: Hex to Base64
     ├── Cargo.toml
     ├── Cargo.lock
     ├── architecture_diagram.md
@@ -46,7 +46,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ### Running the Hex to Base64 Utility
 1. Navigate to the challenge directory:
    ```bash
-   cd hex_to_base64
+   cd 01-hex_to_base64
    ```
 2. Run the application:
    ```bash
@@ -60,6 +60,6 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ### Running Tests
 To verify implementation correctness:
 ```bash
-cd hex_to_base64
+cd 01-hex_to_base64
 cargo test
 ```
