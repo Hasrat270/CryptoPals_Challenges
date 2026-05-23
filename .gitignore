@@ -1,0 +1,14 @@
+# Cargo compiler artifacts
+**/target/
+
+# Backup and temp files
+**/*.rs.bk
+**/*.swp
+**/*.swo
+
+# IDE settings
+.idea/
+.vscode/
+
+# OS metadata
+.DS_Store
