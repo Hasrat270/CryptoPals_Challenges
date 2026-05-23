@@ -12,3 +12,7 @@
 
 # OS metadata
 .DS_Store
+
+# Local AI Code Quality Instructions
+instructions.md
+
